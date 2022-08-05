@@ -1,40 +1,42 @@
 function Nav() {
   return (
     <div>
-      <nav class="flex dark:bg-slate-800 justify-center space-x-4">
-        <a
-          href="/dashboard"
-          class="font-medium px-3 py-2 dark:text-white text-slate-700 hover:bg-slate-100 hover:text-slate-900"
-        >
-          Home
-        </a>
-        <a
-          href="/team"
-          class="font-medium px-3 py-2 dark:text-white text-slate-700  hover:bg-slate-100 hover:text-slate-900"
-        >
-          Projects
-        </a>
-        <a
-          href="/projects"
-          class="font-medium px-3 py-2 dark:text-white text-slate-700  hover:bg-slate-100 hover:text-slate-900"
-        >
-          Contact
-        </a>
-        <a
-          href="/reports"
-          class="font-medium px-3 py-2 dark:text-white text-slate-700  hover:bg-slate-100 hover:text-slate-900"
-        >
-          Blog
-        </a>
-        <a
-          href="/reports"
-          class="font-medium px-3 py-2 dark:text-white text-slate-700  hover:bg-slate-100 hover:text-slate-900"
-        >
-          About
-        </a>
-        <a class="font-medium px-3 py-2 dark:text-white hover:bg-slate-100">
-          dark
-        </a>
+      <nav class="flex justify-between py-4  bg-slate-100 space-x-5">
+        <p class="left-0 ml-3 text-2xl text-slate-700 font-bold">
+          Joel Saucedo
+        </p>
+        <div class="">
+          <a
+            href="/dashboard"
+            class="font-medium px-3 py-2 text-slate-700 underline hover:bg-slate-100 hover:text-slate-900 hover:no-underline"
+          >
+            Home
+          </a>
+          <a
+            href="/team"
+            class="font-medium px-3 py-2 text-slate-700 underline hover:bg-slate-100 hover:text-slate-900 hover:no-underline"
+          >
+            Projects
+          </a>
+          <a
+            href="/projects"
+            class="font-medium px-3 py-2  text-slate-700 underline hover:bg-slate-100 hover:text-slate-900 hover:no-underline"
+          >
+            Contact
+          </a>
+          <a
+            href="/reports"
+            class="font-medium px-3 py-2  text-slate-700 underline hover:bg-slate-100 hover:text-slate-900 hover:no-underline"
+          >
+            Blog
+          </a>
+          <a
+            href="/reports"
+            class="font-medium px-3 py-2  text-slate-700 underline hover:bg-slate-100 hover:text-slate-900 hover:no-underline"
+          >
+            About
+          </a>
+        </div>
       </nav>
     </div>
   );
