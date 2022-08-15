@@ -34,6 +34,12 @@ function Nav() {
           >
             About
           </a>
+          <a
+            href="/reports"
+            class="mr-3 ml-3 px-3 py-2 rounded-full text-white bg-sky-500 hover: "
+          >
+            Resume
+          </a>
         </div>
       </nav>
     </div>
