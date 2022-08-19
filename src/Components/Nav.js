@@ -1,7 +1,7 @@
 function Nav() {
   return (
     <div>
-      <nav class="flex justify-between py-4  bg-slate-100 space-x-5">
+      <nav class="flex justify-between py-4 mb-11 bg-slate-100 space-x-5">
         <p class="left-0 ml-3 text-2xl text-black font-bold">Joel Saucedo</p>
         <div class="">
           <a
