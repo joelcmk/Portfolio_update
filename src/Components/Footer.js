@@ -1,8 +1,11 @@
 function Footer() {
   return (
     <div>
-      <div className="h-px mx-4 mt-11 bg-slate-300"></div>
-      <div className="h-40 bg-003c3d"></div>
+      <footer class="flex justify-between py-4 mt-11 mb-11">
+        <a class="left-0 ml-3 text-2xl text-slate-200 font-bold" href="">
+          Joel Saucedo
+        </a>
+      </footer>
     </div>
   );
 }
