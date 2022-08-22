@@ -7,3 +7,9 @@ body {
     rgba(255, 221, 221, 1) 100%
   );
 }
+
+.profileImage {
+  background-image: url('./Images/flag.png');
+  margin: 100; /* If you want no margin */
+  padding: 0; /*if your want to padding */
+}
