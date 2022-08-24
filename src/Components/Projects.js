@@ -11,7 +11,7 @@ function Projects() {
       projectImg: Pokemon,
       projectName: 'Pokemon',
       projectDescription: 'This is a test',
-      background: 'bg-gradient-to-tr from-rose-300 to-teal-400',
+      background: 'bg-sky-300',
     },
     Budget: {
       projectImg: Budget,
@@ -29,6 +29,7 @@ function Projects() {
       projectImg: Meetup,
       projectName: 'Meetup',
       projectDescription: 'This is a test for meetup calculator project',
+      background: 'bg-purple-300',
     },
   };
   return (
