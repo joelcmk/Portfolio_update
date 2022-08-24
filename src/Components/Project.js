@@ -1,4 +1,5 @@
-function Project({ project }) {
+function Project({ project, url }) {
+  console.log(url);
   return (
     <div className="w-2/5 m-5 mb-20">
       <div
@@ -12,7 +13,9 @@ function Project({ project }) {
         <p className="text-xl font-thin my-2 max-w-md">
           {project.projectDescription}
         </p>
-        <a className="font-bold hover:underline">VIEW PROJECT</a>
+        <a href={url} className="font-bold hover:underline">
+          VIEW PROJECT
+        </a>
       </diiv>
     </div>
   );
