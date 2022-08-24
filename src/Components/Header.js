@@ -51,20 +51,44 @@ function Header() {
         <p className="my-10">Some text</p>
         <div className="flex justify-around list-inside list-disc ">
           <ul>
-            <li>JavaScript</li>
-            <li>React</li>
+            <li className="flex items-center h4">
+              <div className="flex w-3 h-3 mr-1 bg-blue-500 rounded-full"></div>
+              JavaScript
+            </li>
+            <li className="flex items-center h4">
+              <div className="flex w-3 h-3 mr-1 bg-blue-500 rounded-full"></div>
+              React
+            </li>
           </ul>
           <ul>
-            <li>HTML</li>
-            <li>CSS</li>
+            <li className="flex items-center h4">
+              <div className="flex w-3 h-3 mr-1 bg-blue-500 rounded-full"></div>
+              HTML
+            </li>
+            <li className="flex items-center h4">
+              <div className="flex w-3 h-3 mr-1 bg-blue-500 rounded-full"></div>
+              CSS
+            </li>
           </ul>
           <ul>
-            <li>Git</li>
-            <li>Tailwind</li>
+            <li className="flex items-center h4">
+              <div className="flex w-3 h-3 mr-1 bg-blue-500 rounded-full"></div>
+              Git
+            </li>
+            <li className="flex items-center h4">
+              <div className="flex w-3 h-3 mr-1 bg-blue-500 rounded-full"></div>
+              Tailwind
+            </li>
           </ul>
           <ul>
-            <li>Firebase</li>
-            <li>Strapi</li>
+            <li className="flex items-center h4">
+              <div className="flex w-3 h-3 mr-1 bg-blue-500 rounded-full"></div>
+              Firebase
+            </li>
+            <li className="flex items-center h4">
+              <div className="flex w-3 h-3 mr-1 bg-blue-500 rounded-full"></div>
+              Strapi
+            </li>
           </ul>
         </div>
       </div>
