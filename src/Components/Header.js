@@ -47,8 +47,11 @@ function Header() {
         </p>
       </div>
       <div className="my-0 mx-auto mt-20 w-11/12">
-        <h2 className="text-3xl font-semibold">My Skills</h2>
-        <p className="my-10">Some text</p>
+        <h2 className="text-5xl font-semibold">My Skills</h2>
+        <p className="my-10 text-xl">
+          I've gained some experience in the following skills through courses,
+          books, articles, tutorials, volunteering, and mentors.{' '}
+        </p>
         <div className="flex justify-around list-inside list-disc ">
           <ul>
             <li className="flex items-center h4">
