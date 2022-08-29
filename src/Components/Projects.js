@@ -1,7 +1,7 @@
 import Pokemon from '../Images/pokemon.png';
 import Movies from '../Images/movies.png';
 import Chat from '../Images/chat.png';
-import Meetup from '../Images/meetup.png';
+import Devlaunchers from '../Images/devlaunchers.png';
 import Todo from '../Images/todo.png';
 import Budget from '../Images/budget.png';
 import Project from './Project';
@@ -15,6 +15,7 @@ function Projects() {
         'Pomodoro will help you to organize your time, so you can be productive and have free time to rest or play video games. ',
       background: 'bg-sky-300',
       url: '/Pomodoro',
+      css: 'w-96 h-80',
     },
     Budget: {
       projectImg: Budget,
@@ -23,6 +24,7 @@ function Projects() {
         'LoveDinero was made with love, it is a personal finance web application that will help you to stay on budget and attain your financial goals. Cancun here we go!',
       background: 'bg-green-200',
       url: '/budget',
+      css: 'w-96 h-80',
     },
     Recipify: {
       projectImg: Movies,
@@ -31,14 +33,16 @@ function Projects() {
         "Recipify is a web app that will help you find thousands of food recipes. Relive old memories  cooking plates from your childhood or go wild and cook something that you've never had before. ",
       background: 'bg-orange-200',
       url: '/recipify',
+      css: 'w-96  h-80',
     },
     Meetup: {
-      projectImg: Meetup,
+      projectImg: Devlaunchers,
       projectName: 'Dev Launchers',
       projectDescription:
         'Find out the work that I did volunteering as a Full-stack Developer at Devlaunchers.',
       background: 'bg-purple-300',
       url: '/meetup',
+      css: 'w-full h-80 rounded-md',
     },
   };
   return (
@@ -51,10 +55,26 @@ function Projects() {
           breakdown click on "view project" to find more information.
         </p>
       </div>
-      <Project project={myProjects.Budget} url={myProjects.Budget.url} />
-      <Project project={myProjects.Pomodoro} url={myProjects.Pomodoro.url} />
-      <Project project={myProjects.Recipify} url={myProjects.Recipify.url} />
-      <Project project={myProjects.Meetup} url={myProjects.Meetup.url} />
+      <Project
+        project={myProjects.Budget}
+        url={myProjects.Budget.url}
+        css={myProjects.Budget.css}
+      />
+      <Project
+        project={myProjects.Pomodoro}
+        url={myProjects.Pomodoro.url}
+        css={myProjects.Pomodoro.css}
+      />
+      <Project
+        project={myProjects.Recipify}
+        url={myProjects.Recipify.url}
+        css={myProjects.Recipify.css}
+      />
+      <Project
+        project={myProjects.Meetup}
+        url={myProjects.Meetup.url}
+        css={myProjects.Meetup.css}
+      />
       <NextProject />
     </div>
   );
