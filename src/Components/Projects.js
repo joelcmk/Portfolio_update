@@ -1,21 +1,19 @@
-import Pokemon from '../Images/pokemon.png';
-import Movies from '../Images/movies.png';
-import Chat from '../Images/chat.png';
+import Clock from '../Images/clock.png';
+import Food from '../Images/food.png';
 import Devlaunchers from '../Images/devlaunchers.png';
-import Todo from '../Images/todo.png';
 import Budget from '../Images/budget.png';
 import Project from './Project';
 import NextProject from './NextProject';
 function Projects() {
   const myProjects = {
     Pomodoro: {
-      projectImg: Pokemon,
+      projectImg: Clock,
       projectName: 'Pomodoro',
       projectDescription:
         'Pomodoro will help you to organize your time, so you can be productive and have free time to rest or play video games. ',
-      background: 'bg-sky-300',
+      background: 'bg-orange-200',
       url: '/Pomodoro',
-      css: 'w-96 h-80',
+      css: 'w-80 h-80',
     },
     Budget: {
       projectImg: Budget,
@@ -27,13 +25,13 @@ function Projects() {
       css: 'w-96 h-80',
     },
     Recipify: {
-      projectImg: Movies,
+      projectImg: Food,
       projectName: 'Recipify',
       projectDescription:
         "Recipify is a web app that will help you find thousands of food recipes. Relive old memories  cooking plates from your childhood or go wild and cook something that you've never had before. ",
-      background: 'bg-orange-200',
+      background: 'bg-sky-300',
       url: '/recipify',
-      css: 'w-96  h-80',
+      css: 'w-80  h-80',
     },
     Meetup: {
       projectImg: Devlaunchers,
