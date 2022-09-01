@@ -4,7 +4,7 @@ import Nav from './Components/Nav';
 import Projects from './Components/Projects';
 import Footer from './Components/Footer';
 import Header from './Components/Header';
-import Email from './Components/Email';
+import Contact from './Components/Contact';
 
 function App() {
   return (
@@ -12,8 +12,8 @@ function App() {
       <Nav />
       <Header />
       <Projects />
+      <Contact />
       <Footer />
-      <Email />
     </div>
   );
 }
