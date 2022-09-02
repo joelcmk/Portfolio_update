@@ -43,7 +43,7 @@ function Email() {
                 value={toSend.reply_to}
                 onChange={handleChange}
               />
-              <p class="mt-2 invisible peer-invalid:visible text-white text-sm">
+              <p class="mt-2 invisible peer-invalid:visible text-blue-500 text-md">
                 Please provide a valid email address.
               </p>
             </label>

@@ -1,3 +1,4 @@
+import Resume from '../Images/Saucedo-Joel-Resume.pdf';
 function Nav() {
   return (
     <div>
@@ -6,13 +7,23 @@ function Nav() {
           Joel Saucedo
         </a>
         <div className="flex text-blue-500 font-semibold">
-          <a href="https://www.linkedin.com/in/j-saucedo/" className="mx-5">
+          <a
+            href="https://www.linkedin.com/in/j-saucedo/"
+            target="_blank"
+            className="mx-5"
+            rel="noreferrer"
+          >
             Linkedin
           </a>
-          <a href="https://github.com/joelcmk" className="mx-5">
+          <a
+            href="https://github.com/joelcmk"
+            target="_blank"
+            className="mx-5"
+            rel="noreferrer"
+          >
             Github
           </a>
-          <a href="#" className="mx-5">
+          <a href={Resume} target="_blank" className="mx-5" rel="noreferrer">
             Resume
           </a>
         </div>

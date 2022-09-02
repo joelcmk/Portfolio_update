@@ -3,7 +3,7 @@ import Flag from '../Images/flag.png';
 import Portrait from '../Images/portrait.jpeg';
 function Header() {
   return (
-    <div className="mb-20 ">
+    <div className="mb-10 ">
       <div className="flex justify-center items-center mb-20 w-11/12">
         <img
           className="h-60 w-60 rounded-full shadow-md"

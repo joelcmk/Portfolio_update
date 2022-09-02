@@ -1,7 +1,7 @@
 function Project({ project, url, css }) {
   console.log(url);
   return (
-    <div className="w-2/5 m-5 mb-20">
+    <div className="w-2/5 m-5 mb-20 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300">
       <div
         className={`flex justify-center items-center shadow-md ${project.background} mb-10 rounded-lg`}
       >
