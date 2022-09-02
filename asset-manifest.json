@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Portfolio_update/static/css/main.eea65ba1.css",
+    "main.js": "/Portfolio_update/static/js/main.0190f1e1.js",
+    "static/js/787.1ed0c42c.chunk.js": "/Portfolio_update/static/js/787.1ed0c42c.chunk.js",
+    "static/media/budget.png": "/Portfolio_update/static/media/budget.65e0298ea6cce442018b.png",
+    "static/media/portrait.jpeg": "/Portfolio_update/static/media/portrait.f318d6b0471d36795864.jpeg",
+    "static/media/Saucedo-Joel-Resume.pdf": "/Portfolio_update/static/media/Saucedo-Joel-Resume.baa8e1392c2c6ca2f764.pdf",
+    "static/media/devlaunchers.png": "/Portfolio_update/static/media/devlaunchers.871e1b5cf904c69e36f7.png",
+    "static/media/flag.png": "/Portfolio_update/static/media/flag.1c1390deec3effefe842.png",
+    "static/media/clock.png": "/Portfolio_update/static/media/clock.18c43cc16ac402f345f6.png",
+    "static/media/food.png": "/Portfolio_update/static/media/food.de010f4746eeeb3ea118.png",
+    "index.html": "/Portfolio_update/index.html",
+    "main.eea65ba1.css.map": "/Portfolio_update/static/css/main.eea65ba1.css.map",
+    "main.0190f1e1.js.map": "/Portfolio_update/static/js/main.0190f1e1.js.map",
+    "787.1ed0c42c.chunk.js.map": "/Portfolio_update/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eea65ba1.css",
+    "static/js/main.0190f1e1.js"
+  ]
+}
