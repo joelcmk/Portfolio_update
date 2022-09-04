@@ -10,10 +10,13 @@ function Project({ project, url, css }) {
 
       <diiv className="text-black font-sans">
         <h3 className="text-4xl font-semibold">{project.projectName}</h3>
-        <p className="text-xl font-thin my-2 max-w-md">
-          {project.projectDescription}
-        </p>
-        <a href={url} className="font-bold hover:underline">
+        <p className="text-xl font-thin my-2 ">{project.projectDescription}</p>
+        <a
+          href={url}
+          target="_blank"
+          className="font-bold hover:underline"
+          rel="noreferrer"
+        >
           VIEW PROJECT
         </a>
       </diiv>

@@ -12,7 +12,7 @@ function Projects() {
       projectDescription:
         'Pomodoro will help you to organize your time, so you can be productive and have free time to rest or play video games. ',
       background: 'bg-orange-200',
-      url: '/Pomodoro',
+      url: 'https://github.com/joelcmk/Pomodoro',
       css: 'w-80 h-80',
     },
     Budget: {
@@ -21,16 +21,16 @@ function Projects() {
       projectDescription:
         'LoveDinero was made with love, it is a personal finance web application that will help you to stay on budget and attain your financial goals. Cancun here we go!',
       background: 'bg-green-200',
-      url: '/budget',
+      url: 'https://github.com/joelcmk/budget-calculator',
       css: 'w-96 h-80',
     },
     Recipify: {
       projectImg: Food,
-      projectName: 'Recipify',
+      projectName: 'Recipefy',
       projectDescription:
-        "Recipify is a web app that will help you find thousands of food recipes. Relive old memories  cooking plates from your childhood or go wild and cook something that you've never had before. ",
+        "Recipefy is a web app that will help you find thousands of food recipes. Relive old memories  cooking plates from your childhood or go wild and cook something that you've never had before. ",
       background: 'bg-sky-300',
-      url: '/recipify',
+      url: 'https://github.com/joelcmk/Recipefy',
       css: 'w-80  h-80',
     },
     Meetup: {
@@ -39,7 +39,7 @@ function Projects() {
       projectDescription:
         'Find out the work that I did volunteering as a Full-stack Developer at Devlaunchers.',
       background: 'bg-purple-300',
-      url: '/meetup',
+      url: 'https://github.com/dev-launchers/platform__dl-ideas',
       css: 'w-full h-80 rounded-md',
     },
   };
