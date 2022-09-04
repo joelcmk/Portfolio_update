@@ -6,7 +6,7 @@ function NextProject() {
       </div>
 
       <diiv className="flex flex-col items-center text-black font-sans ">
-        <h3 className="text-4xl font-semibold ">Instapaper</h3>
+        <h3 className="text-4xl font-semibold ">untitled</h3>
         <p className="text-xl font-thin my-2 ">
           Save your favorite articles to read them later without data or wifi.
         </p>
