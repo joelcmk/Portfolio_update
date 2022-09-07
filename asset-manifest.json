@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/joelsaucedo.com/static/css/main.b3c06e49.css",
-    "main.js": "/joelsaucedo.com/static/js/main.4e4ca4fc.js",
-    "static/js/787.1ed0c42c.chunk.js": "/joelsaucedo.com/static/js/787.1ed0c42c.chunk.js",
-    "static/media/budget.png": "/joelsaucedo.com/static/media/budget.65e0298ea6cce442018b.png",
-    "static/media/portrait.jpeg": "/joelsaucedo.com/static/media/portrait.f318d6b0471d36795864.jpeg",
-    "static/media/Saucedo-Joel-Resume.pdf": "/joelsaucedo.com/static/media/Saucedo-Joel-Resume.baa8e1392c2c6ca2f764.pdf",
-    "static/media/devlaunchers.png": "/joelsaucedo.com/static/media/devlaunchers.871e1b5cf904c69e36f7.png",
-    "static/media/flag.png": "/joelsaucedo.com/static/media/flag.1c1390deec3effefe842.png",
-    "static/media/clock.png": "/joelsaucedo.com/static/media/clock.18c43cc16ac402f345f6.png",
-    "static/media/food.png": "/joelsaucedo.com/static/media/food.de010f4746eeeb3ea118.png",
-    "index.html": "/joelsaucedo.com/index.html",
-    "main.b3c06e49.css.map": "/joelsaucedo.com/static/css/main.b3c06e49.css.map",
-    "main.4e4ca4fc.js.map": "/joelsaucedo.com/static/js/main.4e4ca4fc.js.map",
-    "787.1ed0c42c.chunk.js.map": "/joelsaucedo.com/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/www.joelsaucedo.com/static/css/main.337ce04c.css",
+    "main.js": "/www.joelsaucedo.com/static/js/main.1b65aa0b.js",
+    "static/js/787.1ed0c42c.chunk.js": "/www.joelsaucedo.com/static/js/787.1ed0c42c.chunk.js",
+    "static/media/budget.png": "/www.joelsaucedo.com/static/media/budget.65e0298ea6cce442018b.png",
+    "static/media/portrait.jpeg": "/www.joelsaucedo.com/static/media/portrait.f318d6b0471d36795864.jpeg",
+    "static/media/Saucedo-Joel-Resume.pdf": "/www.joelsaucedo.com/static/media/Saucedo-Joel-Resume.baa8e1392c2c6ca2f764.pdf",
+    "static/media/devlaunchers.png": "/www.joelsaucedo.com/static/media/devlaunchers.871e1b5cf904c69e36f7.png",
+    "static/media/flag.png": "/www.joelsaucedo.com/static/media/flag.1c1390deec3effefe842.png",
+    "static/media/clock.png": "/www.joelsaucedo.com/static/media/clock.18c43cc16ac402f345f6.png",
+    "static/media/food.png": "/www.joelsaucedo.com/static/media/food.de010f4746eeeb3ea118.png",
+    "index.html": "/www.joelsaucedo.com/index.html",
+    "main.337ce04c.css.map": "/www.joelsaucedo.com/static/css/main.337ce04c.css.map",
+    "main.1b65aa0b.js.map": "/www.joelsaucedo.com/static/js/main.1b65aa0b.js.map",
+    "787.1ed0c42c.chunk.js.map": "/www.joelsaucedo.com/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b3c06e49.css",
-    "static/js/main.4e4ca4fc.js"
+    "static/css/main.337ce04c.css",
+    "static/js/main.1b65aa0b.js"
   ]
 }
