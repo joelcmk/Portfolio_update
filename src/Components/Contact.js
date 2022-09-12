@@ -29,7 +29,7 @@ function Email() {
       <h3 className="text-center mt-20 font-bold text-4xl">Get in touch!</h3>
       {!submit ? (
         <form
-          className="max-w-lg my-0 p-3 mx-auto bg-purple-300 rounded-xl mt-5"
+          className="max-w-lg my-0 p-3 mx-auto bg-transparent border-4 rounded-xl mt-5 shadow-md"
           onSubmit={onSubmit}
         >
           <div className="my-0 mx-auto w-full">
@@ -38,7 +38,7 @@ function Email() {
               <input
                 type="email"
                 name="reply_to"
-                className="w-full pl-3 h-10 rounded-md peer ..."
+                className="w-full pl-3 h-10 border-2 rounded-md peer ..."
                 placeholder="you@email.com"
                 value={toSend.reply_to}
                 onChange={handleChange}
@@ -54,7 +54,7 @@ function Email() {
             <textarea
               type="text"
               name="message"
-              className="w-full p-1 h-40 rounded-md mb-3 text-right text-start"
+              className="w-full p-1 h-40 rounded-md mb-3 text-right text-start border-2"
               value={toSend.message}
               onChange={handleChange}
             />
