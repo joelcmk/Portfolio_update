@@ -2,11 +2,14 @@ import Resume from '../Images/Saucedo-Joel-Resume.pdf';
 function Footer() {
   return (
     <div className="">
-      <footer class="flex justify-between py-4 mt-11 mb-11">
-        <a class="left-0 ml-3 text-2xl text-black font-bold" href="/">
+      <footer class="flex flex-col justify-between py-4 mb-11 md:flex-row lg:flex-row">
+        <a
+          class="my-0 mx-auto text-2xl text-black font-bold md:left-0 md:ml-3 lg:left-0 lg:ml-3"
+          href="/"
+        >
           Joel Saucedo
         </a>
-        <div className="flex text-blue-500 font-semibold">
+        <div className="flex justify-center text-blue-500 font-semibold">
           <a
             href="https://www.linkedin.com/in/j-saucedo/"
             target="_blank"

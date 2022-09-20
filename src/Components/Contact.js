@@ -29,7 +29,7 @@ function Email() {
       <h3 className="text-center mt-20 font-bold text-4xl">Get in touch!</h3>
       {!submit ? (
         <form
-          className="max-w-lg my-0 p-3 mx-auto bg-transparent border-4 rounded-xl mt-5 shadow-md"
+          className="max-w-lg my-0 mx-auto p-3  bg-transparent border-4 rounded-xl shadow-md"
           onSubmit={onSubmit}
         >
           <div className="my-0 mx-auto w-full">

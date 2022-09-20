@@ -4,7 +4,7 @@ import Portrait from '../Images/portrait.jpeg';
 function Header() {
   return (
     <div className="mb-10 ">
-      <div className="flex justify-center items-center mb-20 w-11/12">
+      <div className="flex justify-center flex-col items-center mb-20 w-11/12 lg:flex-row">
         <img
           className="h-60 w-60 rounded-full shadow-md"
           src={Portrait}
