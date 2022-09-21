@@ -26,7 +26,9 @@ function Email() {
   };
   return (
     <div>
-      <h3 className="text-center mt-20 font-bold text-4xl">Get in touch!</h3>
+      <h3 className="text-center mt-20 font-bold text-4xl mb-5">
+        Get in touch!
+      </h3>
       {!submit ? (
         <form
           className="max-w-lg my-0 mx-auto p-3  bg-transparent border-4 rounded-xl shadow-md"

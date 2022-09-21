@@ -10,10 +10,14 @@ function Header() {
           src={Portrait}
           alt="portrait"
         />
-        <div className="ml-6 text-6xl font-semibold ">
+        <div className="ml-6 text-3xl font-semibold md:text-6xl lg:text-6xl">
           <p className="flex items-end ">
             Hi there, I’m Joel.
-            <img className="h-10 mb-2 ml-2" src={Flag} alt="flag" />
+            <img
+              className="h-6 mb-2 ml-2 md:h-10 lg:h-10"
+              src={Flag}
+              alt="flag"
+            />
           </p>
           <p>
             Front End <span className="text-blue-500">Developer</span>,
@@ -24,7 +28,7 @@ function Header() {
       </div>
 
       <div className="flex justify-center flex-wrap mt-20 ">
-        <p className="text-base font-normal m-3 w-2/5 ">
+        <p className="text-base font-normal m-3 md:w-2/5 lg:w-2/5 ">
           I’m a front-end web developer based in Austin, TX. I have extensive
           experience in customer service, the importance of small details,
           accuracy, and quality control. Qualities that are indispensable in the
@@ -38,7 +42,7 @@ function Header() {
           do better. Namely, one of my favorite aspects of the tech scene is
           learning new tools, libraries, and applications.
         </p>
-        <p className="w-2/5 m-3">
+        <p className="m-3 md:w-2/5 lg:w-2/5">
           My specialities include: HTML, CSS, JavaScript and React. In other
           words, It’s an endless process where I always learn and adapt. One of
           my dreams is to work for a company that helps the community and allows

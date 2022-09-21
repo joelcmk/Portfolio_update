@@ -1,7 +1,7 @@
 function Project({ project, url, css, liveAppUrl }) {
   console.log(url);
   return (
-    <div className="w-2/5 m-5 mb-20 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300">
+    <div className="m-5 mb-20 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300 md:w-2/5 lg:w-2/5">
       <a href={liveAppUrl} target="_blank" rel="noreferrer">
         <div
           className={`flex justify-center items-center shadow-md ${project.background} mb-10 rounded-lg`}
