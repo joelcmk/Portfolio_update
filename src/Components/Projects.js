@@ -22,8 +22,8 @@ function Projects() {
       projectDescription:
         'LoveDinero was made with love, it is a personal finance web application that will help you to stay on budget and attain your financial goals. Cancun here we go!',
       background: 'bg-green-200',
-      url: 'https://github.com/joelcmk/budget-calculator',
-      liveAppUrl: 'https://joelcmk.github.io/budget-calculator',
+      url: 'https://github.com/joelcmk/LoveDinero',
+      liveAppUrl: 'https://joelcmk.github.io/LoveDinero/',
       css: 'w-96 h-80',
     },
     Recipify: {
